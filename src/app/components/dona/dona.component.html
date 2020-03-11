@@ -1,0 +1,26 @@
+<div class="container content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row pt-1 mb-2">
+                <div class="col-md-4">
+                    <!-- <div style="display: block"> -->
+                    <canvas baseChart [data]="doughnutChartDataFirst" [labels]="doughnutChartLabelsFirst" [chartType]="doughnutChartTypeFirst" [colors]="chartColorsFirst" [plugins]="doughnutChartPluginsFirst">
+                        </canvas>
+                    <!-- </div> -->
+                </div>
+                <div class="col-md-4">
+                    <div style="display: block">
+                        <canvas baseChart [data]="doughnutChartDataSecond" [labels]="doughnutChartLabelsSecond" [chartType]="doughnutChartTypeSecond" [colors]="chartColorsSecond" [plugins]="doughnutChartPluginsSecond">
+                        </canvas>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="display: block">
+                        <canvas baseChart [data]="doughnutChartDataTree" [labels]="doughnutChartLabelsTree" [chartType]="doughnutChartTypeTree" [colors]="chartColorsTree" [plugins]="doughnutChartPluginsTree">
+                        </canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
